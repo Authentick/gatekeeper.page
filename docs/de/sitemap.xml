@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gatekeeper.page/de/blog/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gatekeeper.page/en/blog/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://gatekeeper.page/de/blog/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gatekeeper.page/de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gatekeeper.page/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://gatekeeper.page/de/"
+                />
+  </url>
+  
+</urlset>

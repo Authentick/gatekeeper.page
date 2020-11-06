@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" class="h-100">
+    {{- partial "head.html" . -}}
+    <body  class="d-flex flex-column h-100">
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </body>
+    {{ $bootstrap := resources.Get "scss/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" }}
+    {{ $customJs := resources.Get "js/typeit.js" }}
+    {{ $typeit := resources.Get "scss/node_modules/typeit/dist/typeit.min.js" }}
+    {{ $jquery := resources.Get "scss/node_modules/jquery/dist/jquery.min.js" }}
+    {{ $js := slice $jquery $bootstrap $typeit $customJs | resources.Concat "js/bundle.js" | minify | fingerprint }}
+    <script 
+        src="{{ $js.Permalink }}" 
+        integrity="{{ $js.Data.Integrity }}">
+    </script>
+</html>

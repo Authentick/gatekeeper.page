@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $dateFormat := default "Jan 2" (index .Site.Params "date_format") }}
+{{ $.Scratch.Set "lastYear" ""}}
+{{ .Content }}
+<div class="container">
+  <div class="row">
+
+    {{range $i, $element := .Pages}}
+    {{ $year := .Date.Year }}
+    {{ $lastYear := $.Scratch.Get "lastYear"}}
+
+    {{ $len := len .Pages }}
+
+    <div class="col-sm-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary">
+            {{ $taxo := "blog/categories" }}
+            {{ range .Param $taxo }}
+            {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
+            <a class="text-muted" href="{{ .Permalink }}">#{{ .Title }}</a>
+            {{ end }}
+            {{ end }}
+          </strong>
+          <h3 class="mb-0">{{ .Title }}</h3>
+
+          <time class="post-date"
+            datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          <p class="card-text mb-auto">{{ .Summary }}</p>
+          <a href="{{ .Permalink }}">Continue reading</a>
+        </div>
+      </div>
+
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

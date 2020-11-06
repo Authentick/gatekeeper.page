@@ -1,0 +1,18 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>{{ if not .IsHome }}{{ with .Title }}{{ . }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
+    <link rel="canonical" href="{{ .Permalink }}" />
+    {{ if .IsTranslated }}
+        {{ range .Translations }}
+           <!-- <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />-->
+        {{ end}}
+    {{ end }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ $cssOpts := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" "true" ) }}
+    {{ $styles := resources.Get "scss/theme.scss" | toCSS $cssOpts | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
+</head>

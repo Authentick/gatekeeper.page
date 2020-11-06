@@ -1,0 +1,10 @@
+<div class="jumbotron jumbotron-fluid bg-primary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4">{{ with .Get "title" }}{{.}}{{ end }}</h1>
+                <p class="lead">{{ with .Get "subtitle" }}{{.}}{{ end }}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="container pt-4 pb-4">
+    <div class="text-center pb-1">
+        <h2>Read our latest news</h2>         
+    </div>
+
+    <div class="row">
+        {{ range ( where site.RegularPages "Section" "blog" | first 4 ) }}
+        <div class="col-sm-3">
+            <div
+                class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-primary">
+                        {{ $taxo := "blog/categories" }}
+                        {{ range .Param $taxo }}
+                        {{ with site.GetPage (printf "/%s/%s" $taxo (. | urlize)) }}
+                        <a class="text-muted" href="{{ .Permalink }}">#{{ .Title }}</a>
+                        {{ end }}
+                        {{ end }}
+                    </strong>
+                    <a class="d-block" href="{{ .Permalink }}">
+                        <h3 class="mb-0">{{ .Title }}</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

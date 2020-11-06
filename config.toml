@@ -1,0 +1,55 @@
+baseURL = "https://gatekeeper.page/"
+theme = "gatekeeper"
+DefaultContentLanguage = "en"
+enableRobotsTXT = true
+defaultContentLanguageInSubdir  = true
+title = "Gatekeeper"
+publishDir = "docs"
+
+[taxonomies]
+  blog_categories = "blog/categories"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [[languages.en.menu.main]]
+    id = "Community"
+    name = "Community"
+    weight = 4
+    [[languages.en.menu.main]]
+    id = "Code"
+    name = "Code on GitHub"
+    parent = "Community"
+    url = "https://github.com/GetGatekeeper/Server"
+    [[languages.en.menu.main]]
+    id = "Bug"
+    name = "Report a bug"
+    parent = "Community"
+    url = "https://github.com/GetGatekeeper/Server/issues"
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 2
+
+[[menu.main]]
+  identifier = "Community"
+  weight = 4
+[[menu.main]]
+  identifier = "Code"
+  parent = "Community"
+  weight = 2
+[[menu.main]]
+  identifier = "Bug"
+  parent = "Community"
+  weight = 3
+
+[related]
+  threshold = 80
+  includeNewer = false
+  toLower = false
+  [[related.indices]]
+    name = "blog/categories"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10

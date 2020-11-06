@@ -1,0 +1,16 @@
+<div class="container pt-4 pb-4">
+    <div class="row">
+        <div class="col-sm text-center rounded">
+            <img class="img-fluid w-100" src="{{ with .Get "image-link" }}{{.}}{{ end }}" />
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm">
+            <div class="d-flex flex-row align-items-center">
+                <i class="fas text-primary {{ with .Get "icon" }}{{.}}{{ end }} fa-2x"></i>
+                <h2 class="pl-2 pt-2">{{ with .Get "title" }}{{.}}{{ end }}</h2>
+            </div>
+            <p class="text-muted">{{ with .Get "description" }}{{. }}{{ end }}</p>
+            <a class="btn btn-{{ with .Get "btn-colour" }}{{. }}{{ end }}" href="{{ with .Get "cta-link" }}{{. }}{{ end }}">{{ with .Get "cta" }}{{. }}{{ end }}</a>
+        </div>
+    </div>
+</div>
