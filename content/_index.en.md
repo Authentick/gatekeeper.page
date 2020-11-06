@@ -18,9 +18,9 @@ menu:
             </div>
             <div class="col-sm-6">
             <div class="row">
-            <div class="col-3 d-flex align-items-end" style="left: 100px; z-index: 100;"><div><img alt="Gatekeeper Mobile Interface" src="/img/screenshots/mobile.png" class="img-fluid rounded-top shadow">
+            <div class="col-3 d-flex align-items-end" style="left: 100px; z-index: 100;"><div><img alt="Gatekeeper Mobile Interface" src="/img/screenshots/mobile.png" class="img-fluid rounded shadow">
              </div></div><div class="col-7 col-lg-9"> 
-              <img alt="Gatekeeper Desktop Interface" src="/img/screenshots/desktop.png" class="img-fluid rounded-top shadow-lg">
+              <img alt="Gatekeeper Desktop Interface" src="/img/screenshots/desktop.png" class="img-fluid rounded shadow-lg">
             </div></div></div>
         </div>
     </div>
