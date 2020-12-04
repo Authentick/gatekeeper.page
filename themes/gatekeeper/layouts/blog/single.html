@@ -1,40 +1,42 @@
 {{ define "main" }}
 <div class="container">
-  <h1 class="mt-5">{{ .Title | markdownify}}</h1>
+  <div class="col-sm-9 offset-sm-1">
+    <h1 class="mt-5">{{ .Title | markdownify}}</h1>
 
-  {{ if .Params.Subtitle }}
-    <h2 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h2>
-  {{ end }}
-
-  <p class="text-muted mt-3">
-    <a class="text-muted" href="{{ .Permalink }}">Published {{ .Date.Format "January 2, 2006"  }}</a>
-
-    {{ range .Params.tags }}
-      <a class="text-muted" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+    {{ if .Params.Subtitle }}
+      <h2 class="font-weight-light font-italic mb-3">{{ .Params.Subtitle | markdownify }}</h2>
     {{ end }}
-  </p>
 
-  <article class="article mt-5">
-    {{ .Content }}
-  </article>
+    <p class="text-muted mt-3">
+      <a class="text-muted" href="{{ .Permalink }}">{{ .Date.Format "January 2, 2006"  }}</a>
+
+      {{ range .Params.tags }}
+        <a class="text-muted" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+      {{ end }}
+    </p>
+
+    <article class="article mt-2 mb-5">
+      {{ .Content }}
+    </article>
+  </div>
 </div>
 
-{{ if or .Next .Prev }}
+{{ if or .NextInSection .PrevInSection }}
   <div class="bg-light py-5">
     <div class="container">
       <h2 class="text-center">Read next</h2>
 
       <div class="row">
         <div class="col-md-6 text-center">
-          {{ if .Prev }}
+          {{ if .PrevInSection }}
             Previous Post:
-            <a href="{{ .Prev.URL | relLangURL}}">{{ .Prev.Title | markdownify }}</a>
+            <a href="{{ .PrevInSection.Permalink }}">{{ .PrevInSection.Title | markdownify }}</a>
           {{ end }}
         </div>
         <div class="col-md-6 text-center">
-          {{ if .Next }}
+          {{ if .NextInSection }}
             Next Post:
-            <a href="{{ .Next.URL | relLangURL }}">{{ .Next.Title | markdownify }}</a>
+            <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title | markdownify }}</a>
           {{ end }}
         </div>
       </div>

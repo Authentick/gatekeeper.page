@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Why is there a need for Gatekeeper? | Gatekeeper</title>
+    <meta name="description" content="I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it. ">
+    <link rel="canonical" href="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/" />
+    
+    <meta property="og:title" content="Why is there a need for Gatekeeper?" />
+<meta property="og:description" content="I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/" />
+<meta property="article:published_time" content="2020-12-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-04T00:00:00+00:00" />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Why is there a need for Gatekeeper?"/>
+<meta name="twitter:description" content="I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it."/>
+
+    
+    
+    <link rel="stylesheet" href="/css/style.b9787decdf23484136e63ff50bda2902e6f21a58738705d2d9f9eeeae7406ffd.css" integrity="sha256-uXh97N8jSEE25j/1C9opAubyGlhzhwXS2fnu6udAb/0=" media="screen">
+
+</head><body  class="d-flex flex-column h-100"><nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="navbar-collapse collapse flex-sm-row-reverse" id="navbarSupportedContent">
+    <a href="/en/install" class="btn border text-white">Get Gatekeeper</a>
+
+    <ul class="navbar-nav flex-grow-1">
+      <a class="navbar-brand" href="/"><img src="/img/logo-long.svg" /></a>
+      
+      
+      
+      <li class="navbar-item  ">
+        
+        <a class="nav-link" href="/en/" title="Home">Home</a>
+        
+      </li>
+      
+      
+      <li class="navbar-item  ">
+        
+        <a class="nav-link" href="/en/features/" title="Features">Features</a>
+        
+      </li>
+      
+      
+      <li class="navbar-item  ">
+        
+        <a class="nav-link" href="/en/blog/" title="Blog">Blog</a>
+        
+      </li>
+      
+      
+      <li class="navbar-item  dropdown">
+        
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Community
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+          <a class="dropdown-item" href="/en/community/contribute/">Get involved</a>
+          
+          <a class="dropdown-item" href="https://github.com/GetGatekeeper/Server">Code on GitHub</a>
+          
+          <a class="dropdown-item" href="https://github.com/GetGatekeeper/Server/issues">Report a bug</a>
+          
+        </div>
+        
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<div id="content">
+<div class="container">
+  <div class="col-sm-9 offset-sm-1">
+    <h1 class="mt-5">Why is there a need for Gatekeeper?</h1>
+
+    
+
+    <p class="text-muted mt-3">
+      <a class="text-muted" href="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/">December 4, 2020</a>
+
+      
+    </p>
+
+    <article class="article mt-2 mb-5">
+      <p>I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source <a href="https://en.wikipedia.org/wiki/Identity_management">Identity Access Management solution</a>, done in a way that anyone can run it.</p>
+<h2 id="self-hosting-requires-it-knowledge">Self-hosting requires IT knowledge.</h2>
+<p>In 2016 a friend of mine started a startup. They asked me for advice on what internal systems they should use for their company to keep their data away from the cloud.</p>
+<p>As co-founder of <a href="https://nextcloud.com/">Nextcloud</a>, my initial advice was to give that a try for document management.</p>
+<p>Shortly after, they asked me: &quot;What if we want to create email accounts, chat accounts, and more?&quot;</p>
+<p>What should I have recommended them at this point? Nextcloud doesn't support all of these features, and they wanted a single login for all those features. And indeed, you can't teach everyone how to administrate an LDAP and SAML server.</p>
+<p>So instead, they ended up using Google Apps for Business and Slack. From an end-user perspective, this is all great. Everything works with a few clicks.</p>
+<p>It's December 2020, and instead of more open-source projects popping up to solve these problems, the opposite happened. SaaS ate the world.</p>
+<h2 id="open-source-projects-lack-iam-support">Open-Source Projects lack IAM support.</h2>
+<p>We ended up in a world where open-source projects often lack support for Identity Management systems. At the same time, proprietary and hosted software like <a href="https://slack.com/intl/en-uk/help/articles/212572638-Manage-members-with-SCIM-provisioning">Slack</a>, <a href="https://help.dropbox.com/accounts-billing/security/supported-identity-providers">Dropbox</a>, or <a href="https://www.workplace.com/resources/tech/account-management/automatic/">Facebook Workplace</a> supports these.</p>
+<p>There are just a few open-source projects with official support for Identity Access Management (IAM) Systems. How did we end up with this state?</p>
+<p>I believe the main reason boils down that there is no simple-to-use, easy-to-install open-source access management solution. There are many expensive Enterprise systems but barely do open-source maintainers have access to these.</p>
+<p>The lack of such software leads to many downstream issues, such as the lack of high-quality open-source libraries for IAM support.</p>
+<h2 id="how-does-gatekeeper-fix-this">How does Gatekeeper fix this?</h2>
+<p>We can try to get to a state where more open-source projects will support IAM standards by creating an open-source Identity Access Management solution.</p>
+<p>Gatekeeper aims to:</p>
+<ul>
+<li>Be easy to install and maintain.</li>
+<li>Be secure by default.</li>
+<li>Be easy to use.</li>
+<li>Offer toolings and guidance for other software to implement IAM standards.</li>
+</ul>
+<p>Hopefully, that will lead to a world in which a button press will create users on all the software you desire to use. Be it on-premise or SaaS.</p>
+
+    </article>
+  </div>
+</div>
+
+
+
+
+
+
+
+        </div><div class="container-fluid  mt-auto position-relative pt-5 pb-3" style="background-color: #f5f5f5;">
+    <footer class="container">
+        <div class="row">
+            <div class="col-12 col-md">
+                <small class="d-block mb-3 text-muted">&copy; 2020</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Contribute</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted text-decoration-none" href="/en/community/contribute/">Code</a></li>
+                    <li><a class="text-muted text-decoration-none" href="/en/community/contribute/">Testing</a></li>
+                    <li><a class="text-muted text-decoration-none" href="/en/community/contribute/">Design</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Follow us</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted text-decoration-none" href="https://www.facebook.com/GetGatekeeper/">Facebook</a></li>
+                    <li><a class="text-muted text-decoration-none" href="#">RSS Feed</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+            </div>
+        </div>
+    </footer>
+</div></body>
+    
+    
+    
+    
+    
+    <script 
+        src="https://gatekeeper.page/js/bundle.min.26524d6e1110bc52cfce8650df4c7d0561cd3eb279a82fe1b5f9f33de3c2fa13.js" 
+        integrity="sha256-JlJNbhEQvFLPzoZQ30x9BWHNPrJ5qC/htfnzPePC&#43;hM=">
+    </script>
+</html>
