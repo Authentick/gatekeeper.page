@@ -1,22 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Gatekeeper</title>
     <link>https://gatekeeper.page/en/blog/</link>
     <description>Recent content in Blog on Gatekeeper</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why is there a need for Gatekeeper?</title>
       <link>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
-      
+      <author>Lukas Reschke</author>
       <guid>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</guid>
-      <description>I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it.</description>
+      <description><![CDATA[ I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it.]]></description>
+      <content:encoded><![CDATA[ <p>I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source <a href="https://en.wikipedia.org/wiki/Identity_management">Identity Access Management solution</a>, done in a way that anyone can run it.</p>
+<h2 id="self-hosting-requires-it-knowledge">Self-hosting requires IT knowledge.</h2>
+<p>In 2016 a friend of mine started a startup. They asked me for advice on what internal systems they should use for their company to keep their data away from the cloud.</p>
+<p>As co-founder of <a href="https://nextcloud.com/">Nextcloud</a>, my initial advice was to give that a try for document management.</p>
+<p>Shortly after, they asked me: &quot;What if we want to create email accounts, chat accounts, and more?&quot;</p>
+<p>What should I have recommended them at this point? Nextcloud doesn't support all of these features, and they wanted a single login for all those features. And indeed, you can't teach everyone how to administrate an LDAP and SAML server.</p>
+<p>So instead, they ended up using Google Apps for Business and Slack. From an end-user perspective, this is all great. Everything works with a few clicks.</p>
+<p>It's December 2020, and instead of more open-source projects popping up to solve these problems, the opposite happened. SaaS ate the world.</p>
+<h2 id="open-source-projects-lack-iam-support">Open-Source Projects lack IAM support.</h2>
+<p>We ended up in a world where open-source projects often lack support for Identity Management systems. At the same time, proprietary and hosted software like <a href="https://slack.com/intl/en-uk/help/articles/212572638-Manage-members-with-SCIM-provisioning">Slack</a>, <a href="https://help.dropbox.com/accounts-billing/security/supported-identity-providers">Dropbox</a>, or <a href="https://www.workplace.com/resources/tech/account-management/automatic/">Facebook Workplace</a> supports these.</p>
+<p>There are just a few open-source projects with official support for Identity Access Management (IAM) Systems. How did we end up with this state?</p>
+<p>I believe the main reason boils down that there is no simple-to-use, easy-to-install open-source access management solution. There are many expensive Enterprise systems but barely do open-source maintainers have access to these.</p>
+<p>The lack of such software leads to many downstream issues, such as the lack of high-quality open-source libraries for IAM support.</p>
+<h2 id="how-does-gatekeeper-fix-this">How does Gatekeeper fix this?</h2>
+<p>We can try to get to a state where more open-source projects will support IAM standards by creating an open-source Identity Access Management solution.</p>
+<p>Gatekeeper aims to:</p>
+<ul>
+<li>Be easy to install and maintain.</li>
+<li>Be secure by default.</li>
+<li>Be easy to use.</li>
+<li>Offer toolings and guidance for other software to implement IAM standards.</li>
+</ul>
+<p>Hopefully, that will lead to a world in which a button press will create users on all the software you desire to use. Be it on-premise or SaaS.</p>
+]]></content:encoded>
     </item>
     
   </channel>
