@@ -6,6 +6,9 @@ defaultContentLanguageInSubdir  = true
 title = "Gatekeeper"
 publishDir = "docs"
 
+[params]
+  images = ["/img/favicons/apple-touch-icon.png"]
+
 [taxonomies]
   blog_categories = "blog/categories"
 
