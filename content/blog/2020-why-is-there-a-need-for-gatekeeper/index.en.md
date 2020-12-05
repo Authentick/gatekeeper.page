@@ -4,6 +4,7 @@ summary: "I wrote down some of the reasons for the creation of the Gatekeeper pr
 author: "Lukas Reschke"
 draft: false
 "blog/categories": ["vision"]
+images: ["/en/blog/2020-why-is-there-a-need-for-gatekeeper/post-cover.png"]
 date: 2020-12-04
 ---
 
