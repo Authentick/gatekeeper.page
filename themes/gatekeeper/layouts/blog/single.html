@@ -9,10 +9,7 @@
 
     <p class="text-muted mt-3">
       <a class="text-muted" href="{{ .Permalink }}">{{ .Date.Format "January 2, 2006"  }}</a>
-
-      {{ range .Params.tags }}
-        <a class="text-muted" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
-      {{ end }}
+      <br/><small>By {{ .Params.Author }}</small>
     </p>
 
     <article class="article mt-2 mb-5">

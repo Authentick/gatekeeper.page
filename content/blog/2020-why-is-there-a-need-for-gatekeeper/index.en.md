@@ -1,6 +1,7 @@
 ---
 title: "Why is there a need for Gatekeeper?"
 summary: "I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it."
+author: "Lukas Reschke"
 draft: false
 "blog/categories": ["vision"]
 date: 2020-12-04
