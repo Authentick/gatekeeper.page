@@ -5,10 +5,19 @@
     <link>https://gatekeeper.page/en/</link>
     <description>Recent content in Home on Gatekeeper</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://gatekeeper.page/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gatekeeper in a Snap</title>
+      <link>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</guid>
+      <description>As described in our earlier post: &amp;ldquo;SaaS ate the world.&amp;quot;. You don&amp;rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?</description>
+    </item>
     
     <item>
       <title>Why is there a need for Gatekeeper?</title>
