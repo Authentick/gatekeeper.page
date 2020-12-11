@@ -22,6 +22,19 @@ type: "flexible-container"
     <div class="container-fluid pt-5">
         <div class="row">
             <div class="col-sm-4 installation-method">
+                <a href="https://snapcraft.io/gatekeeper">
+                    <div class="card d-flex align-items-center shadow">
+                        <span class="pt-4">
+                            <img style="height: 72px" src="./snap.png" />
+                        </span>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Snap</h5>
+                            <p class="card-text">Automatic updates using Snap</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 installation-method">
                 <a href="https://github.com/GetGatekeeper/Server">
                     <div class="card d-flex align-items-center shadow">
                         <span class="pt-4" style="font-size: 48px">

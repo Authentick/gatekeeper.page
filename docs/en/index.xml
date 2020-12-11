@@ -56,9 +56,9 @@ View the source code       Testing  Let&amp;#39;s make Gatekeeper bug-free by te
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gatekeeper.page/en/install/</guid>
-      <description>We are not quite ready yet...Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you&#39;re a developer and interested. You can however run the software locally.
-Official installation methodsSourceBuild from source yourself
-</description>
+      <description>We are not quite ready yet...Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you&#39;re a developer and interested. You can however run the software locally.
+Official installation methodsSnapAutomatic updates using Snap
+SourceBuild from source yourself</description>
     </item>
     
   </channel>
