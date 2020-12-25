@@ -18,14 +18,11 @@ menu:
     </div>
 </div>
 <div class="jumbotron jumbotron-fluid text-center">
-<div class="container">
-  <h2>You have an idea for a new feature?</h2>
-<p>We always look forward to new feature ideas and to understand your use-cases.</p>
-<a href="https://github.com/GetGatekeeper/FeatureRequests/issues" class="btn btn-primary"><i class="fa fa-lightbulb"></i> Submit my idea</a>
+  <div class="container">
+    <h2>You have an idea for a new feature?</h2>
+    <p>We always look forward to new feature ideas and to understand your use-cases.</p>
+    <a href="https://github.com/GetGatekeeper/Server/discussions/categories/ideas" class="btn btn-primary"><i class="fa fa-lightbulb"></i> Submit my idea</a>
   </div>
-</div>
-</div>
-</div>
 </div>
 {{< /rawhtml >}}
 

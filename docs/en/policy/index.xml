@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies on Gatekeeper</title>
+    <link>https://gatekeeper.page/en/policy/</link>
+    <description>Recent content in Policies on Gatekeeper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://gatekeeper.page/en/policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://gatekeeper.page/en/policy/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gatekeeper.page/en/policy/privacy/</guid>
+      <description>Privacy Policy Last updated: December 25, 2020
+This document covers the Privacy Policy of the Gatekeeper project (&amp;ldquo;we&amp;rdquo; / &amp;ldquo;us&amp;rdquo;). A personal project by Lukas Reschke.
+If you have any questions about this privacy notice, please contact us at lukas@statuscode.ch.
+What personal data do we collect? We collect data from two different sources. Either data you provide to us or data we collect automatically.
+Provided by you Email address We may collect your email address for the following purposes:</description>
+    </item>
+    
+  </channel>
+</rss>

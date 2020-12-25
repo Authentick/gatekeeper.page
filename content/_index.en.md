@@ -26,6 +26,32 @@ menu:
     </div>
 </div>
 
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
+    <span id="newsletter_cta">
+        <h2>Sign up for email updates</h2>
+        <p>We will update you on new releases and news.</p>
+        <input type="text" id="newsletter_email_address" class="form-control" placeholder="Email address" aria-label="Email address" />
+        <br />
+        <button class="btn btn-lg btn-primary" onclick="javascript:subscribeToNewsletter()">Subscribe</button>
+    </span>
+
+    <span id="newsletter_success" class="d-none">
+        <h2>Subscribed to email updates</h2>
+        <p>Check your emails to confirm your subscription.</p>
+    </span>
+
+    <script>
+        function subscribeToNewsletter() {
+            document.getElementById('newsletter_cta').classList.add('d-none');
+            document.getElementById('newsletter_success').classList.remove('d-none');
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://newsletter-services.gatekeeper.page/subscribe?email=' + encodeURIComponent(document.getElementById('newsletter_email_address').value), true);
+            xhr.send(null);
+        }
+    </script>
+  </div>
+</div>
 {{< /rawhtml >}}
 
 {{< header-left-explanation-right header="Manage your users from one central place." title="Gatekeeper Directory" description="Gatekeeper comes with a built-in user and group management." >}}
@@ -36,8 +62,8 @@ menu:
 
 {{< rawhtml >}}
 <div class="jumbotron bg-primary text-center border-0 rounded-0 text-white mb-0">
-<h2>Help improve Gatekeeper</h2>
-<p>Learn how to contribute to make Gatekeeper better for all of us.</p>
-<a href="" class="btn btn-blue btn-lg">Get involved</a>
+    <h2>Help improve Gatekeeper</h2>
+    <p>Learn how to contribute to make Gatekeeper better for all of us.</p>
+    <a href="/en/community/contribute/" class="btn btn-blue btn-lg">Get involved</a>
 </div>
 {{< /rawhtml >}}
