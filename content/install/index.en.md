@@ -22,7 +22,7 @@ type: "flexible-container"
     <div class="container-fluid pt-5">
         <div class="row">
             <div class="col-sm-4 installation-method">
-                <a href="https://snapcraft.io/gatekeeper">
+                <a href="https://docs.gatekeeper.page/admin/installation/setting-up-the-system">
                     <div class="card d-flex align-items-center shadow">
                         <span class="pt-4">
                             <img style="height: 72px" src="./snap.png" />
