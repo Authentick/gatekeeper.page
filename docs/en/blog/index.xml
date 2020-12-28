@@ -7,7 +7,40 @@
     <link>https://gatekeeper.page/en/blog/</link>
     <description>Recent content in Blog on Gatekeeper</description>
     
-    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the Gatekeeper Documentation</title>
+      <link>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <author>Lukas Reschke</author>
+      <guid>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</guid>
+      <description><![CDATA[ We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page.]]></description>
+      <content:encoded><![CDATA[ <p>We just published our first version of the Gatekeeper Documentation for <a href="https://docs.gatekeeper.page/admin/">administrators</a>, <a href="https://docs.gatekeeper.page/user/">users</a>, and <a href="https://docs.gatekeeper.page/developer/">developers</a>. Check it out at <a href="https://docs.gatekeeper.page/">docs.gatekeeper.page</a>.</p>
+<p><img src="./documentation-screenshot.png" alt="Screenshot of docs.gatekeeper.page"></p>
+<h1 id="finding-the-right-documentation-software">Finding the right documentation software</h1>
+<p>We had a few criteria for the right documentation software. Those being:</p>
+<ol>
+<li>Community members can contribute without hassles.</li>
+<li>Data can be accessed using open formats.</li>
+</ol>
+<p>While we initially considered going with <a href="https://www.sphinx-doc.org/">Sphinx</a>, the experience isn&rsquo;t quite where we want it. Installing it isn&rsquo;t straight forward, and reStructuredText isn&rsquo;t intuitive to many people.</p>
+<p>We ultimately settled on <a href="https://www.gitbook.com/">GitBook</a>. Despite it not being an open-source solution, it offers us the following advantages:</p>
+<ul>
+<li>Regular contributors can edit the documentation using the GitBook web UI.</li>
+<li>Non-regular contributors can edit the documentation by making a Pull Request on GitHub.</li>
+<li>GitBook provides hosting for us. And since we are an open-source project, this even <a href="https://www.gitbook.com/pricing">for free</a>.</li>
+</ul>
+<p>As GitBook stores the data using Markdown in GitHub, there is also not much vendor lock-in. Any potential migration to other services in the future should thus be easily possible.</p>
+<h1 id="helping-contributing">Helping contributing</h1>
+<p>We&rsquo;d be happy for any contributions to our documentation. Just submit a Pull Request or Issue to our GitHub repositories, and we&rsquo;d happily incorporate your changes.</p>
+<ul>
+<li><a href="https://github.com/GetGatekeeper/admin-documentation">GetGatekeeper/admin-documentation</a></li>
+<li><a href="https://github.com/GetGatekeeper/user-documentation">GetGatekeeper/user-documentation</a></li>
+<li><a href="https://github.com/GetGatekeeper/developer-documentation">GetGatekeeper/developer-documentation</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>Gatekeeper in a Snap</title>
       <link>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</link>

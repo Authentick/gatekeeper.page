@@ -2,26 +2,23 @@
 <html lang="en" class="h-100"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Blog/Categories | Gatekeeper</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="https://gatekeeper.page/en/blog/categories/" />
+    <title>Introducing the Gatekeeper Documentation | Gatekeeper</title>
+    <meta name="description" content="We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page. ">
+    <link rel="canonical" href="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/" />
     
-        
-           
-        
-    
-    <meta property="og:title" content="Blog/Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://gatekeeper.page/en/blog/categories/" />
-<meta property="og:image" content="https://gatekeeper.page/img/social-preview.png"/>
-<meta property="og:updated_time" content="2020-12-28T00:00:00+00:00" />
+    <meta property="og:title" content="Introducing the Gatekeeper Documentation" />
+<meta property="og:description" content="We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/" />
+<meta property="og:image" content="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/post-cover.png" />
+<meta property="article:published_time" content="2020-12-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-28T00:00:00+00:00" />
 
     <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://gatekeeper.page/img/social-preview.png"/>
+<meta name="twitter:image" content="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/post-cover.png"/>
 
-<meta name="twitter:title" content="Blog/Categories"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Introducing the Gatekeeper Documentation"/>
+<meta name="twitter:description" content="We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page."/>
 
     
     
@@ -109,67 +106,70 @@
   </div>
 </nav>
 <div id="content">
-
-<div class="jumbotron jumbotron-fluid bg-primary text-white">
-  <div class="container">
-      <div class="row">
-          <div class="col">
-              <h1 class="display-4">#Blog/Categories</h1>
-              <p class="lead">All posts related to #Blog/Categories</p>
-          </div>
-      </div>
-  </div>
-</div>
 <div class="container">
-  <div class="row">
+  <div class="col-sm-9 offset-sm-1">
+    <h1 class="mt-5">Introducing the Gatekeeper Documentation</h1>
 
-  
+    
 
-  
-    <div class="col-sm-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">
-            
-            
-          </strong>
-          <a href="https://gatekeeper.page/en/blog/categories/development/" class="text-gray text-decoration-none">
-            <h3 class="mb-1">development</h3>
+    <p class="text-muted mt-3">
+      <a class="text-muted" href="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/">December 28, 2020</a>
+      <br/><small>By Lukas Reschke</small>
+    </p>
 
-            <time class="post-date pt-1"
-              datetime="0001-01-01T00:00:00Z">Jan 1, 0001</time>
-            <p class="card-text mb-auto pt-3"></p>
-            <a href="https://gatekeeper.page/en/blog/categories/development/" class="pt-3">Continue reading</a>
-          </a>
-        </div>
-      </div>
-    </div>
-  
+    <article class="article mt-2 mb-5">
+      <p>We just published our first version of the Gatekeeper Documentation for <a href="https://docs.gatekeeper.page/admin/">administrators</a>, <a href="https://docs.gatekeeper.page/user/">users</a>, and <a href="https://docs.gatekeeper.page/developer/">developers</a>. Check it out at <a href="https://docs.gatekeeper.page/">docs.gatekeeper.page</a>.</p>
+<p><img src="./documentation-screenshot.png" alt="Screenshot of docs.gatekeeper.page"></p>
+<h1 id="finding-the-right-documentation-software">Finding the right documentation software</h1>
+<p>We had a few criteria for the right documentation software. Those being:</p>
+<ol>
+<li>Community members can contribute without hassles.</li>
+<li>Data can be accessed using open formats.</li>
+</ol>
+<p>While we initially considered going with <a href="https://www.sphinx-doc.org/">Sphinx</a>, the experience isn&rsquo;t quite where we want it. Installing it isn&rsquo;t straight forward, and reStructuredText isn&rsquo;t intuitive to many people.</p>
+<p>We ultimately settled on <a href="https://www.gitbook.com/">GitBook</a>. Despite it not being an open-source solution, it offers us the following advantages:</p>
+<ul>
+<li>Regular contributors can edit the documentation using the GitBook web UI.</li>
+<li>Non-regular contributors can edit the documentation by making a Pull Request on GitHub.</li>
+<li>GitBook provides hosting for us. And since we are an open-source project, this even <a href="https://www.gitbook.com/pricing">for free</a>.</li>
+</ul>
+<p>As GitBook stores the data using Markdown in GitHub, there is also not much vendor lock-in. Any potential migration to other services in the future should thus be easily possible.</p>
+<h1 id="helping-contributing">Helping contributing</h1>
+<p>We&rsquo;d be happy for any contributions to our documentation. Just submit a Pull Request or Issue to our GitHub repositories, and we&rsquo;d happily incorporate your changes.</p>
+<ul>
+<li><a href="https://github.com/GetGatekeeper/admin-documentation">GetGatekeeper/admin-documentation</a></li>
+<li><a href="https://github.com/GetGatekeeper/user-documentation">GetGatekeeper/user-documentation</a></li>
+<li><a href="https://github.com/GetGatekeeper/developer-documentation">GetGatekeeper/developer-documentation</a></li>
+</ul>
 
-  
-    <div class="col-sm-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">
-            
-            
-          </strong>
-          <a href="https://gatekeeper.page/en/blog/categories/vision/" class="text-gray text-decoration-none">
-            <h3 class="mb-1">vision</h3>
-
-            <time class="post-date pt-1"
-              datetime="0001-01-01T00:00:00Z">Jan 1, 0001</time>
-            <p class="card-text mb-auto pt-3"></p>
-            <a href="https://gatekeeper.page/en/blog/categories/vision/" class="pt-3">Continue reading</a>
-          </a>
-        </div>
-      </div>
-    </div>
-  
+    </article>
   </div>
 </div>
 
-  
+
+  <div class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Read next</h2>
+
+      <div class="row">
+        <div class="col-md-6 text-center">
+          
+            Previous Post:
+            <a href="https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/">Gatekeeper in a Snap</a>
+          
+        </div>
+        <div class="col-md-6 text-center">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
         </div><div class="container-fluid  mt-auto position-relative pt-5 pb-3" style="background-color: #f5f5f5;">
     <footer class="container">
         <div class="row">

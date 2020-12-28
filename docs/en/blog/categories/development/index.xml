@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>development on Gatekeeper</title>
+    <link>https://gatekeeper.page/en/blog/categories/development/</link>
+    <description>Recent content in development on Gatekeeper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://gatekeeper.page/en/blog/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing the Gatekeeper Documentation</title>
+      <link>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</guid>
+      <description>We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page.</description>
+    </item>
+    
+  </channel>
+</rss>
