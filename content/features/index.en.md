@@ -7,7 +7,7 @@ menu:
     weight: 2
 ---
 {{< rawhtml >}}
-<div class="jumbotron jumbotron-fluid bg-primary text-white text-center m-0">
+<div class="hero-banner jumbotron jumbotron-fluid bg-primary text-white text-center m-0">
     <div class="container">
         <div class="row">
             <div class="col-sm">
@@ -17,7 +17,7 @@ menu:
         </div>
     </div>
 </div>
-<div class="jumbotron jumbotron-fluid text-center">
+<div class="jumbotron jumbotron-fluid text-center bg-white">
   <div class="container">
     <h2>You have an idea for a new feature?</h2>
     <p>We always look forward to new feature ideas and to understand your use-cases.</p>
@@ -26,6 +26,6 @@ menu:
 </div>
 {{< /rawhtml >}}
 
-{{< header-left-explanation-right header="Manage your users from one central place." title="Gatekeeper Directory" description="Gatekeeper comes with a built-in user and group management." >}}
+{{< header-left-explanation-right header="Central user management" title="Gatekeeper Directory" description="Gatekeeper comes with a built-in user and group management." >}}
 
 {{< header-right-explanation-left header="Security for everyone" title="Security Alerts" description="Gatekeeper is built with security in mind. There's no need for expensive and complicated security solutions." >}}

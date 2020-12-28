@@ -9,7 +9,7 @@ menu:
 ---
 {{< rawhtml >}}
 
-<div class="jumbotron jumbotron-fluid bg-primary text-white">
+<div class="hero-banner jumbotron jumbotron-fluid bg-primary text-white">
   <div class="container">
       <div class="row">
           <div class="col">
@@ -22,7 +22,7 @@ menu:
 {{< /rawhtml >}}
 
 
-{{< full-image-left image-link="/en/community/contribute/zulip.png" image-title="Community chat" cta-link="https://getgatekeeper.zulipchat.com/" cta="Join the chat" btn-colour="primary" icon="fa-comments" title="Community Chat" description="Help other Nextcloud users and developers by joining our communication chat and answering questions." >}}
+{{< full-image-left image-link="/en/community/contribute/zulip.png" image-title="Community chat" cta-link="https://getgatekeeper.zulipchat.com/" cta="Join the chat" btn-colour="primary" icon="fa-comments" title="Community Chat" description="Help other Gatekeeper users and developers by joining our communication chat and answering questions." >}}
 
 {{< full-image-left image-link="/en/community/contribute/vscode.png" image-title="Development" cta-link="https://docs.gatekeeper.page/developer/" cta="Read docs" btn-colour="primary" title="Development" description="Contribute to Gatekeeper by fixing issues, improving functionality or implementing new features." icon="fa-code">}}
 

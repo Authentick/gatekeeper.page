@@ -54,7 +54,7 @@ menu:
 </div>
 {{< /rawhtml >}}
 
-{{< header-left-explanation-right header="Manage your users from one central place." title="Gatekeeper Directory" description="Gatekeeper comes with a built-in user and group management." >}}
+{{< header-left-explanation-right header="Central user management" title="Gatekeeper Directory" description="Gatekeeper comes with a built-in user and group management." >}}
 
 {{< header-right-explanation-left header="Security for everyone" title="Security Alerts" description="Gatekeeper is built with security in mind. There's no need for expensive and complicated security solutions." >}}
 
