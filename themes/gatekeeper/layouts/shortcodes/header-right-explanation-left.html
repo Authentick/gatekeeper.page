@@ -1,13 +1,13 @@
 <div class="container pt-4 pb-4">
-    <div class="row">
+    <div class="row flex-column-reverse flex-lg-row">
         <div class="col-sm">
             <h2 class="pt-4 pt-lg-2">{{ with .Get "title" }}{{.}}{{ end }}</h2>
             <p class="text-muted">{{ with .Get "description" }}{{. }}{{ end }}</p>
         </div>
         <div class="col-sm-1"></div>
-        <div class="col-sm bg-primary text-white text-center pl-4 pr-4 rounded">
+        <div class="explanation-card col-sm bg-primary text-white text-center pl-4 pr-4">
             <div class="p-5">
-                <h3>{{ with .Get "header" }}{{.}}{{ end }}</h3>
+                <h4>{{ with .Get "header" }}{{.}}{{ end }}</h4>
             </div>
         </div>
     </div>
