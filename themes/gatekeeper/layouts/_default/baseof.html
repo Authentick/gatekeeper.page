@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language }}" class="h-100">
     {{- partial "head.html" . -}}
-    <body  class="d-flex flex-column h-100">
+    <body  class="d-flex flex-column">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}

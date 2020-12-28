@@ -4,11 +4,7 @@
     <title>development on Gatekeeper</title>
     <link>https://gatekeeper.page/en/blog/categories/development/</link>
     <description>Recent content in development on Gatekeeper</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://gatekeeper.page/en/blog/categories/development/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://gatekeeper.page/en/blog/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing the Gatekeeper Documentation</title>
       <link>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
