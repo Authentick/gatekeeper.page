@@ -28,6 +28,20 @@
     filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.5));
 }
 
+.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.installation-method {
+    height: 198px;
+
+    &__image {
+        max-width: 65px;
+        max-height: 65px;
+    }
+}
+
 article {
     h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
         margin-bottom: 15px;

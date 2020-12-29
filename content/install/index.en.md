@@ -19,13 +19,13 @@ type: "flexible-container"
 
 <div class="container pt-5 pb-5">
     <h2 class="text-center">Official installation methods</h2>
-    <div class="container-fluid pt-5">
-        <div class="row">
-            <div class="col-sm-4 installation-method">
+    <div class="pt-5">
+        <div class="row justify-content-center align-items-center flex-column flex-lg-row flex-1">
+            <div class="col-lg-4 col-md-6 col-12 installation-method mb-3 mb-lg-0">
                 <a href="https://docs.gatekeeper.page/admin/installation/setting-up-the-system">
-                    <div class="card d-flex align-items-center shadow">
+                    <div class="h-100 d-flex align-items-center shadow flex-column">
                         <span class="pt-4">
-                            <img style="height: 72px" src="./snap.png" />
+                            <img class="installation-method__image" src="./snap.png" />
                         </span>
                         <div class="card-body text-center">
                             <h5 class="card-title">Snap</h5>
@@ -34,11 +34,11 @@ type: "flexible-container"
                     </div>
                 </a>
             </div>
-            <div class="col-sm-4 installation-method">
-                <a href="https://github.com/GetGatekeeper/Server">
-                    <div class="card d-flex align-items-center shadow">
-                        <span class="pt-4" style="font-size: 48px">
-                            <i class="fas fa-code text-muted"></i>
+            <div class="col-lg-4 col-md-6 col-12 installation-method">
+                <a  href="https://github.com/GetGatekeeper/Server">
+                    <div class="h-100 d-flex align-items-center shadow">
+                        <span class="pt-4">
+                            <i class="fas fa-code fa-4x text-muted installation-method__image"></i>
                         </span>
                         <div class="card-body text-center">
                             <h5 class="card-title">Source</h5>
