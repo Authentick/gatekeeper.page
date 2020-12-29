@@ -8,6 +8,9 @@ $theme-colors: (
   "gray": #212529,
 );
 
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
 .navbar-brand {
   padding: 0 !important;
 
@@ -16,4 +19,20 @@ $theme-colors: (
   }
 }
 
-@import "./node_modules/bootstrap/scss/bootstrap";
+.nav-link {
+  color: rgba(255,255,255,0.9) !important;
+  padding: .3rem 1rem;
+  border: none;
+  &:hover {
+    color: #ffffff !important;
+  }
+  @include media-breakpoint-up(lg) {
+    &:hover {
+      border-bottom: 1px #ffffff solid;
+    }
+  }
+}
+
+.navbar-toggler {
+  outline-style: unset !important;
+}
