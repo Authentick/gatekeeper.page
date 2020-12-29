@@ -27,7 +27,7 @@ menu:
 </div>
 
 <div class="jumbotron jumbotron-fluid text-center bg-white">
-  <div class="container">
+  <div class="container py-0">
     <span id="newsletter_cta">
         <h2>Sign up for email updates</h2>
         <p>We will update you on new releases and news.</p>
