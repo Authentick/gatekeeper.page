@@ -1,6 +1,6 @@
 ---
 title: "Features"
-description: "Find out hwat Gatekeeper can do for you."
+description: "Find out what Gatekeeper can do for you."
 type: "flexible-container"
 menu:
   main:
