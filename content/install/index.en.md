@@ -36,7 +36,7 @@ type: "flexible-container"
             </div>
             <div class="col-lg-4 col-md-6 col-12 installation-method">
                 <a  href="https://github.com/GetGatekeeper/Server">
-                    <div class="h-100 d-flex align-items-center shadow">
+                    <div class="h-100 d-flex align-items-center shadow flex-column">
                         <span class="pt-4">
                             <i class="fas fa-code fa-4x text-muted installation-method__image"></i>
                         </span>
