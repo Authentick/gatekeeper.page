@@ -2,22 +2,23 @@
 <html lang="en" class="h-100"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>development | Gatekeeper</title>
-    <meta name="description" content=" ">
-    <link rel="canonical" href="https://gatekeeper.page/en/blog/categories/development/" />
+    <title>User provisioning in 2020 | Gatekeeper</title>
+    <meta name="description" content="The lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them. ">
+    <link rel="canonical" href="https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/" />
     
-    <meta property="og:title" content="development" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://gatekeeper.page/en/blog/categories/development/" />
-<meta property="og:image" content="https://gatekeeper.page/img/social-preview.png"/>
-
+    <meta property="og:title" content="User provisioning in 2020" />
+<meta property="og:description" content="The lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/" />
+<meta property="og:image" content="https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/post-cover.png" />
+<meta property="article:published_time" content="2020-12-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-30T00:00:00+00:00" />
 
     <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://gatekeeper.page/img/social-preview.png"/>
+<meta name="twitter:image" content="https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/post-cover.png"/>
 
-<meta name="twitter:title" content="development"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="User provisioning in 2020"/>
+<meta name="twitter:description" content="The lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them."/>
 
     
     
@@ -104,50 +105,61 @@
   </div>
 </nav>
 <div id="content">
+<div class="container">
+  <div class="col-sm-9 offset-sm-1">
+    <h1 class="mt-5">User provisioning in 2020</h1>
 
-<div class="hero-banner jumbotron jumbotron-fluid bg-primary text-white">
-  <div class="container">
-      <div class="row">
-          <div class="col">
-              <h1 class="display-4">#development</h1>
-              <p class="lead">All posts related to #development</p>
-          </div>
-      </div>
+    
+
+    <p class="text-muted mt-3">
+      <a class="text-muted" href="https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/">December 30, 2020</a>
+      <br/><small>By Lukas Reschke</small>
+    </p>
+
+    <article class="article mt-2 mb-5">
+      <p>User Provisioning seems to be one of these neglected topics. If you are a big enterprise, you probably care. But as a small and medium-sized enterprise or a regular home user? Why bother!</p>
+<p>However, the lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them.</p>
+<h1 id="manual-account-creation-is-risky">Manual account creation is risky.</h1>
+<p>The days where it was possible to use a single-software to run your business are most likely over. Many companies rely on a lot of different systems for their business.</p>
+<p>I've first hand seen many companies that create dedicated accounts for each employee on all their software systems. So everyone ends up with 5-10 different login credentials.</p>
+<p>The lack of centralized user management causes several issues, such as:</p>
+<p><strong>Account suspensions:</strong> You may forget to disable an account when an employee leaves the company. Failing to do so could result in data leaks and regulatory issues. (e.g., GDPR)</p>
+<p><strong>Principle of least privilege:</strong> Users may move within teams and may not require access to previously used systems. Not handling such cases increases the overall risk footprint of your organization.</p>
+<p><strong>Tipping off malicious actors:</strong> Imagine a hacker that took control of one of your user accounts. If you fail to disable access simultaneously, you may tip them off about their discovery.</p>
+<h1 id="how-gatekeeper-secures-your-organization">How Gatekeeper secures your organization</h1>
+<p>Gatekeeper supports several features that can instantly protect your organization.</p>
+<p><a href="https://docs.gatekeeper.page/admin/managing-applications/understanding-settings/directory-modes/scim"><strong>SCIM:</strong></a> Gatekeeper will push any provisioning changes directly to any connected application. Your application will instantly be aware when a user has been deprovisioned.</p>
+<p><a href="https://docs.gatekeeper.page/admin/managing-applications/understanding-settings/authentication-modes/gatekeeper-proxy"><strong>Gatekeeper Proxy:</strong></a> Gatekeeper will be acting as Reverse Proxy for all incoming traffic to your application and enforce authorization and authentication in real-time.</p>
+<p><a href="https://docs.gatekeeper.page/admin/managing-applications/understanding-settings/directory-modes/ldap-directory"><strong>LDAP:</strong></a> Gatekeeper will be acting as an LDAP server. Your application can query user permissions on-demand.</p>
+
+    </article>
   </div>
 </div>
-<div class="container">
-  <div class="row">
 
-  
 
-  
-    <div class="col-sm-6 mb-4">
-      <div class="h-100 row no-gutters shadow border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">
-            
-            
-              
-                <a class="text-muted" href="https://gatekeeper.page/en/blog/categories/development/">#development</a>
-              
-            
-          </strong>
-          <a href="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/" class="text-gray text-decoration-none">
-            <h3 class="mb-1">Introducing the Gatekeeper Documentation</h3>
+  <div class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Read next</h2>
 
-            <time class="post-date pt-1"
-              datetime="2020-12-28T00:00:00Z">Dec 28, 2020</time>
-            <p class="card-text mb-auto pt-3">We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page.</p>
-            <a href="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/" class="pt-3">Continue reading</a>
-          </a>
+      <div class="row">
+        <div class="col-md-6 text-center">
+          
+            Previous Post:
+            <a href="https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/">Introducing the Gatekeeper Documentation</a>
+          
+        </div>
+        <div class="col-md-6 text-center">
+          
         </div>
       </div>
     </div>
-  
   </div>
-</div>
 
-  
+
+
+
+
+
         </div><div class="container-fluid  mt-auto position-relative pt-5 pb-3" style="background-color: #f5f5f5;">
     <footer class="container">
         <div class="row">
