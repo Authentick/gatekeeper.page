@@ -11,7 +11,7 @@ type: "flexible-container"
       <div class="row">
           <div class="col">
               <h1 class="display-4">We are not quite ready yet...</h1>
-              <p class="lead">Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you're a developer and interested. You can however run the software locally.</p>
+              <p class="lead">Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you're a developer and interested, you can however run the software locally.</p>
           </div>
       </div>
   </div>
