@@ -1,6 +1,6 @@
 ---
 title: "Install"
-description: "Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you're a developer and interested. You can however run the software locally."
+description: "Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you're a developer and interested, you can however run the software locally."
 type: "flexible-container"
 ---
 
