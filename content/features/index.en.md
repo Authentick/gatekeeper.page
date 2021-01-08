@@ -13,7 +13,7 @@ menu:
         <div class="row">
             <div class="col-sm">
                 <h2 class="display-5">Features</h2>
-                <p class="lead">Learn about the features offered by Gatekeeper.</p>
+                <p class="lead">Learn more about the features offered by Gatekeeper.</p>
             </div>
         </div>
     </div>
