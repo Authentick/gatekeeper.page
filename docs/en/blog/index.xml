@@ -7,7 +7,39 @@
     <link>https://gatekeeper.page/en/blog/</link>
     <description>Recent content in Blog on Gatekeeper</description>
     
-    <lastBuildDate>Wed, 30 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gatekeeper and password policies</title>
+      <link>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      <author>Lukas Reschke</author>
+      <guid>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</guid>
+      <description><![CDATA[ Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password..]]></description>
+      <content:encoded><![CDATA[ <blockquote>
+<p>&quot;Your password needs to contain a non-alphanumeric character and two upper-case characters.&quot;</p>
+</blockquote>
+<p>Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.</p>
+<h1 id="the-story-behind-password-policies">The story behind password policies</h1>
+<p>In 2004 the National Institute of Standards and Technology (NIST) published a guideline for secure passwords in &quot;<a href="https://csrc.nist.gov/CSRC/media/Publications/sp/800-63/ver-10/archive/2004-06-30/documents/sp800-63-v1-0.pdf">Special Publication 800-63 Version 1.0</a>&quot;. Stating rules such as:</p>
+<blockquote>
+<p>&quot;composition rules that typically require users to select passwords that include lower case letters, upper case letters, and non-alphabetic symbols&quot;</p>
+</blockquote>
+<p>Ultimately, software vendors followed suit by adding absurd configuration flags inside their systems, allowing you to configure how many unique characters of which type are required. Enterprises saw this and now started demanding it from all possible vendors. If your software didn't support it, companies would just now buy from you.</p>
+<p>Realistically, this didn't increase the security level of the system. Instead of &quot;password&quot;, people now would choose &quot;Password1!&quot;.</p>
+<p>In 2017, NIST realized this and published &quot;<a href="https://pages.nist.gov/800-63-3/sp800-63b.html">800-63B</a>&quot;, moving away from recommendations of regular password changes and password composition requirements. They were instead advising towards checking against breached or weak passwords and a minimum password length.</p>
+<h1 id="how-gatekeeper-uses-password-policies">How Gatekeeper uses password policies</h1>
+<p>We believe in making software as easy to use as possible and coming with sane security defaults. There is barely any valid reason why organization A would require one more special character than organization B.</p>
+<p>In terms of password checks, this means that Gatekeeper will come with a hard-coded password policy. There is no configuration required on your end, and Gatekeeper will automatically follow current best practices.</p>
+<p>Gatekeeper will make users aware when their passwords are not deemed secure. Such as by being not long enough or having been breached earlier.</p>
+<p><strong>User enters a too short password:</strong>
+<img src="./password-not-long-enough.png" alt="Screenshot of Gatekeeper when a password is not long enough"></p>
+<p><strong>User enters a breached password:</strong>
+<img src="./password-not-unique-enough.png" alt="Screenshot of Gatekeeper when a password is not unique enough"></p>
+<p><strong>User enters a secure password:</strong>
+<img src="./password-ok.png" alt="Screenshot of Gatekeeper when a password is ok"></p>
+]]></content:encoded>
+    </item>
+    
     <item>
       <title>User provisioning in 2020</title>
       <link>https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/</link>

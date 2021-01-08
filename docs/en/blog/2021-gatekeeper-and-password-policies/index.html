@@ -2,23 +2,23 @@
 <html lang="en" class="h-100"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Why is there a need for Gatekeeper? | Gatekeeper</title>
-    <meta name="description" content="I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it. ">
-    <link rel="canonical" href="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/" />
+    <title>Gatekeeper and password policies | Gatekeeper</title>
+    <meta name="description" content="Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.. ">
+    <link rel="canonical" href="https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/" />
     
-    <meta property="og:title" content="Why is there a need for Gatekeeper?" />
-<meta property="og:description" content="I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it." />
+    <meta property="og:title" content="Gatekeeper and password policies" />
+<meta property="og:description" content="Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/" />
-<meta property="og:image" content="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/post-cover.png" />
-<meta property="article:published_time" content="2020-12-04T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-04T00:00:00+00:00" />
+<meta property="og:url" content="https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/" />
+<meta property="og:image" content="https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/post-cover.png" />
+<meta property="article:published_time" content="2021-01-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-08T00:00:00+00:00" />
 
     <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/post-cover.png"/>
+<meta name="twitter:image" content="https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/post-cover.png"/>
 
-<meta name="twitter:title" content="Why is there a need for Gatekeeper?"/>
-<meta name="twitter:description" content="I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it."/>
+<meta name="twitter:title" content="Gatekeeper and password policies"/>
+<meta name="twitter:description" content="Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.."/>
 
     
     
@@ -124,39 +124,38 @@
 <div id="content">
 <div class="container">
   <div class="col-sm-9 offset-sm-1">
-    <h1 class="mt-5">Why is there a need for Gatekeeper?</h1>
+    <h1 class="mt-5">Gatekeeper and password policies</h1>
 
     
 
     <p class="text-muted mt-3">
-      <a class="text-muted" href="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/">December 4, 2020</a>
+      <a class="text-muted" href="https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/">January 8, 2021</a>
       <br/><small>By Lukas Reschke</small>
     </p>
 
     <article class="article mt-2 mb-5">
-      <p>I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source <a href="https://en.wikipedia.org/wiki/Identity_management">Identity Access Management solution</a>, done in a way that anyone can run it.</p>
-<h2 id="self-hosting-requires-it-knowledge">Self-hosting requires IT knowledge.</h2>
-<p>In 2016 a friend of mine started a startup. They asked me for advice on what internal systems they should use for their company to keep their data away from the cloud.</p>
-<p>As co-founder of <a href="https://nextcloud.com/">Nextcloud</a>, my initial advice was to give that a try for document management.</p>
-<p>Shortly after, they asked me: &quot;What if we want to create email accounts, chat accounts, and more?&quot;</p>
-<p>What should I have recommended them at this point? Nextcloud doesn't support all of these features, and they wanted a single login for all those features. And indeed, you can't teach everyone how to administrate an LDAP and SAML server.</p>
-<p>So instead, they ended up using Google Apps for Business and Slack. From an end-user perspective, this is all great. Everything works with a few clicks.</p>
-<p>It's December 2020, and instead of more open-source projects popping up to solve these problems, the opposite happened. SaaS ate the world.</p>
-<h2 id="open-source-projects-lack-iam-support">Open-Source Projects lack IAM support.</h2>
-<p>We ended up in a world where open-source projects often lack support for Identity Management systems. At the same time, proprietary and hosted software like <a href="https://slack.com/intl/en-uk/help/articles/212572638-Manage-members-with-SCIM-provisioning">Slack</a>, <a href="https://help.dropbox.com/accounts-billing/security/supported-identity-providers">Dropbox</a>, or <a href="https://www.workplace.com/resources/tech/account-management/automatic/">Facebook Workplace</a> supports these.</p>
-<p>There are just a few open-source projects with official support for Identity Access Management (IAM) Systems. How did we end up with this state?</p>
-<p>I believe the main reason boils down that there is no simple-to-use, easy-to-install open-source access management solution. There are many expensive Enterprise systems but barely do open-source maintainers have access to these.</p>
-<p>The lack of such software leads to many downstream issues, such as the lack of high-quality open-source libraries for IAM support.</p>
-<h2 id="how-does-gatekeeper-fix-this">How does Gatekeeper fix this?</h2>
-<p>We can try to get to a state where more open-source projects will support IAM standards by creating an open-source Identity Access Management solution.</p>
-<p>Gatekeeper aims to:</p>
-<ul>
-<li>Be easy to install and maintain.</li>
-<li>Be secure by default.</li>
-<li>Be easy to use.</li>
-<li>Offer toolings and guidance for other software to implement IAM standards.</li>
-</ul>
-<p>Hopefully, that will lead to a world in which a button press will create users on all the software you desire to use. Be it on-premise or SaaS.</p>
+      <blockquote>
+<p>&quot;Your password needs to contain a non-alphanumeric character and two upper-case characters.&quot;</p>
+</blockquote>
+<p>Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.</p>
+<h1 id="the-story-behind-password-policies">The story behind password policies</h1>
+<p>In 2004 the National Institute of Standards and Technology (NIST) published a guideline for secure passwords in &quot;<a href="https://csrc.nist.gov/CSRC/media/Publications/sp/800-63/ver-10/archive/2004-06-30/documents/sp800-63-v1-0.pdf">Special Publication 800-63 Version 1.0</a>&quot;. Stating rules such as:</p>
+<blockquote>
+<p>&quot;composition rules that typically require users to select passwords that include lower case letters, upper case letters, and non-alphabetic symbols&quot;</p>
+</blockquote>
+<p>Ultimately, software vendors followed suit by adding absurd configuration flags inside their systems, allowing you to configure how many unique characters of which type are required. Enterprises saw this and now started demanding it from all possible vendors. If your software didn't support it, companies would just now buy from you.</p>
+<p>Realistically, this didn't increase the security level of the system. Instead of &quot;password&quot;, people now would choose &quot;Password1!&quot;.</p>
+<p>In 2017, NIST realized this and published &quot;<a href="https://pages.nist.gov/800-63-3/sp800-63b.html">800-63B</a>&quot;, moving away from recommendations of regular password changes and password composition requirements. They were instead advising towards checking against breached or weak passwords and a minimum password length.</p>
+<h1 id="how-gatekeeper-uses-password-policies">How Gatekeeper uses password policies</h1>
+<p>We believe in making software as easy to use as possible and coming with sane security defaults. There is barely any valid reason why organization A would require one more special character than organization B.</p>
+<p>In terms of password checks, this means that Gatekeeper will come with a hard-coded password policy. There is no configuration required on your end, and Gatekeeper will automatically follow current best practices.</p>
+<p>Gatekeeper will make users aware when their passwords are not deemed secure. Such as by being not long enough or having been breached earlier.</p>
+<p><strong>User enters a too short password:</strong>
+<img src="./password-not-long-enough.png" alt="Screenshot of Gatekeeper when a password is not long enough"></p>
+<p><strong>User enters a breached password:</strong>
+<img src="./password-not-unique-enough.png" alt="Screenshot of Gatekeeper when a password is not unique enough"></p>
+<p><strong>User enters a secure password:</strong>
+<img src="./password-ok.png" alt="Screenshot of Gatekeeper when a password is ok"></p>
 
     </article>
   </div>
@@ -170,11 +169,11 @@
       <div class="row">
         <div class="col-md-6 text-center">
           
+            Previous Post:
+            <a href="https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/">User provisioning in 2020</a>
+          
         </div>
         <div class="col-md-6 text-center">
-          
-            Next Post:
-            <a href="https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/">Gatekeeper in a Snap</a>
           
         </div>
       </div>
@@ -183,6 +182,29 @@
 
 
 
+
+<div class="container mt-5">
+  <h2 class="text-center">See also</h2>
+  <div class="row">
+  	
+      <div class="col-md mb-3">
+        <p class="lead mb-0"><a class="text-body" href="/en/blog/2020-gatekeeper-in-a-snap/">Gatekeeper in a Snap</a></p>
+
+        
+        <p class="font-weight-light mt-3">As described in our earlier post: &ldquo;SaaS ate the world.&quot;. You don&rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?</p>
+        <a href="/en/blog/2020-gatekeeper-in-a-snap/" class="btn btn-primary">Read more</a>
+      </div>
+    
+      <div class="col-md mb-3">
+        <p class="lead mb-0"><a class="text-body" href="/en/blog/2020-why-is-there-a-need-for-gatekeeper/">Why is there a need for Gatekeeper?</a></p>
+
+        
+        <p class="font-weight-light mt-3">I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it.</p>
+        <a href="/en/blog/2020-why-is-there-a-need-for-gatekeeper/" class="btn btn-primary">Read more</a>
+      </div>
+    
+  </div>
+</div>
 
 
 
