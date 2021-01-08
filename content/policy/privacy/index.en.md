@@ -37,7 +37,7 @@ We may collect log and usage data for the following purposes:
 
 {{< rawhtml >}}
 <div>
-  <p>You may choose not to have a unique web analytics cookie identification number assigned to your computer to avoid the aggregation and analysis of data collected on this website.</p>
+  <p>You may choose to avoid being tracked.</p>
   <p>To make that choice, please click below to receive an opt-out cookie.</p>
 
   <p>
