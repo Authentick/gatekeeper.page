@@ -1,6 +1,6 @@
 ---
 title: "Gatekeeper and password policies"
-summary: "Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.."
+summary: "Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password."
 author: "Lukas Reschke"
 draft: false
 "blog/categories": ["vision"]
