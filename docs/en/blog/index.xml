@@ -103,7 +103,7 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       <author>Lukas Reschke</author>
       <guid>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</guid>
-      <description><![CDATA[ As described in our earlier post: &ldquo;SaaS ate the world.&rdquo;. You don&rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?]]></description>
+      <description><![CDATA[ As described in our earlier post: &ldquo;SaaS ate the world.&quot;. You don&rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?]]></description>
       <content:encoded><![CDATA[ <p>As described in our earlier post: &quot;<a href="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/">SaaS ate the world.</a>&quot;. And one of the reasons for that is the fact that it is easy.</p>
 <p>You don't need to bother with long installation processes, backups, let alone deploy updates timely. In the cloud, someone else is doing all this for you.</p>
 <p>How can we get to a state in which on-premise software can compete with this?</p>

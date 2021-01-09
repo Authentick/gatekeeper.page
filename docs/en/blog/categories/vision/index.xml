@@ -4,7 +4,11 @@
     <title>vision on Gatekeeper</title>
     <link>https://gatekeeper.page/en/blog/categories/vision/</link>
     <description>Recent content in vision on Gatekeeper</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://gatekeeper.page/en/blog/categories/vision/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://gatekeeper.page/en/blog/categories/vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Gatekeeper and password policies</title>
       <link>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</link>
@@ -20,7 +24,7 @@
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</guid>
-      <description>As described in our earlier post: &amp;ldquo;SaaS ate the world.&amp;rdquo;. You don&amp;rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?</description>
+      <description>As described in our earlier post: &amp;ldquo;SaaS ate the world.&amp;quot;. You don&amp;rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?</description>
     </item>
     
     <item>
