@@ -53,6 +53,8 @@ menu:
 
 {{< full-image-left image-link="/en/features/alert.png" image-title="Automatic mitigation" icon="fa-user-shield" title="Automatic mitigation" description="Gatekeeper pro-actively keeps your system secure with automatic security mitigations and clear information for the administrator." >}}
 
+{{< full-image-left image-link="/en/features/sessions-page.png" image-title="Session Management" icon="fa-list" title="Session Management" description="Gatekeeper offers accessible session management for everyone. Enabling you to see in one glance from which devices and what locations you have accessed Gatekeeper.  Using this interface, you can also invalidate sessions quickly." >}}
+
 {{< full-image-left image-link="/en/features/two-factor.png" image-title="2FA authentication" icon="fa-key" title="Two-factor authentication" description="Gatekeeper has built in two-factor authentication support." >}}
 
 {{< full-image-left image-link="/en/features/request-blocked.png" image-title="Bruteforce protection" icon="fa-key" title="Bruteforce protection" description="Gatekeeper ships by default with a strong bruteforce protection. Protecting your users against any kind of password bruteforce attack." >}}
