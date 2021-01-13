@@ -29,6 +29,10 @@ $theme-colors: (
   @include media-breakpoint-up(lg) {
     &:hover {
       border-bottom: 1px #ffffff solid;
+      margin-right: .5rem;
+      margin-left: .5rem;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
     }
   }
 }
