@@ -1,4 +1,4 @@
-baseURL = "https://gatekeeper.page/"
+baseURL = "/"
 theme = "gatekeeper"
 DefaultContentLanguage = "en"
 enableRobotsTXT = true
