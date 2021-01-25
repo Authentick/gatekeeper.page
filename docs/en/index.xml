@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Gatekeeper</title>
-    <link>https://gatekeeper.page/en/</link>
+    <link>/en/</link>
     <description>Recent content in Home on Gatekeeper</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gatekeeper and password policies</title>
-      <link>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</link>
+      <link>/en/blog/2021-gatekeeper-and-password-policies/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</guid>
+      <guid>/en/blog/2021-gatekeeper-and-password-policies/</guid>
       <description>Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.</description>
     </item>
     
     <item>
       <title>User provisioning in 2020</title>
-      <link>https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/</link>
+      <link>/en/blog/2020-user-provisioning-in-2020/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/</guid>
+      <guid>/en/blog/2020-user-provisioning-in-2020/</guid>
       <description>The lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them.</description>
     </item>
     
     <item>
       <title>Introducing the Gatekeeper Documentation</title>
-      <link>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
+      <link>/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</guid>
+      <guid>/en/blog/2020-introducing-the-gatekeeper-documentation/</guid>
       <description>We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page.</description>
     </item>
     
     <item>
       <title>Gatekeeper in a Snap</title>
-      <link>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</link>
+      <link>/en/blog/2020-gatekeeper-in-a-snap/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</guid>
+      <guid>/en/blog/2020-gatekeeper-in-a-snap/</guid>
       <description>As described in our earlier post: &amp;ldquo;SaaS ate the world.&amp;rdquo;. You don&amp;rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?</description>
     </item>
     
     <item>
       <title>Why is there a need for Gatekeeper?</title>
-      <link>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</link>
+      <link>/en/blog/2020-why-is-there-a-need-for-gatekeeper/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</guid>
+      <guid>/en/blog/2020-why-is-there-a-need-for-gatekeeper/</guid>
       <description>I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it.</description>
     </item>
     
     <item>
       <title>Features</title>
-      <link>https://gatekeeper.page/en/features/</link>
+      <link>/en/features/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/features/</guid>
+      <guid>/en/features/</guid>
       <description>FeaturesLearn more about the features offered by Gatekeeper.
 Usable by everyone    Easy to install &amp;amp; maintain Gatekeeper can be installed without dependencies and takes care of its installation itself.
       Easy setup  Gatekeeper is quick and easy to deploy, guiding you efficiently through the setup and avoiding unnecessary complications.
@@ -65,10 +65,10 @@ Read our installation guide       Automatic updates  Gatekeeper is shipped as a 
     
     <item>
       <title>Features</title>
-      <link>https://gatekeeper.page/en/newsletter-subscribed/</link>
+      <link>/en/newsletter-subscribed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/newsletter-subscribed/</guid>
+      <guid>/en/newsletter-subscribed/</guid>
       <description>Successfully subscribed to the newsletter We will update you on all important news.
     You have an idea for a new feature? We always look forward to new feature ideas and to understand your use-cases.
  Submit my idea   Manage your users from one central place.    Gatekeeper Directory Gatekeeper comes with a built-in user and group management.
@@ -77,10 +77,10 @@ Read our installation guide       Automatic updates  Gatekeeper is shipped as a 
     
     <item>
       <title>Get involved</title>
-      <link>https://gatekeeper.page/en/community/contribute/</link>
+      <link>/en/community/contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/community/contribute/</guid>
+      <guid>/en/community/contribute/</guid>
       <description>Help making Gatekeeper better!Gatekeeper is an open source project and developed collaboratively. Even if you&#39;re not a developer, you can get involved and make a difference.
    Community Chat  Help other Gatekeeper users and developers by joining our communication chat and answering questions.
 Join the chat       Development  Contribute to Gatekeeper by fixing issues, improving functionality or implementing new features.</description>
@@ -88,10 +88,10 @@ Join the chat       Development  Contribute to Gatekeeper by fixing issues, impr
     
     <item>
       <title>Install</title>
-      <link>https://gatekeeper.page/en/install/</link>
+      <link>/en/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/install/</guid>
+      <guid>/en/install/</guid>
       <description>We are not quite ready yet...Gatekeeper is still under active development. We currently do not advise to run Gatekeeper in production as many of the features are not finished or hardened. If you&#39;re a developer and interested, you can however run the software locally.
 Official installation methodsSnapAutomatic updates using Snap
 SourceBuild from source yourself</description>
@@ -99,10 +99,10 @@ Join the chat       Development  Contribute to Gatekeeper by fixing issues, impr
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://gatekeeper.page/en/policy/privacy/</link>
+      <link>/en/policy/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gatekeeper.page/en/policy/privacy/</guid>
+      <guid>/en/policy/privacy/</guid>
       <description>Privacy Policy Last updated: January 1, 2021
 This document covers the Privacy Policy of the Gatekeeper project (&amp;ldquo;we&amp;rdquo; / &amp;ldquo;us&amp;rdquo;). A personal project by Lukas Reschke.
 If you have any questions about this privacy notice, please contact us at lukas@statuscode.ch.
