@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://gatekeeper.page/sitemap.xml
+Sitemap: /sitemap.xml

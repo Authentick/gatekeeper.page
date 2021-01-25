@@ -3,99 +3,99 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/</loc>
+    <loc>/en/blog/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/categories/</loc>
-    <lastmod>2021-01-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://gatekeeper.page/de/blog/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://gatekeeper.page/en/blog/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</loc>
-    <lastmod>2021-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gatekeeper.page/en/</loc>
+    <loc>/en/blog/categories/</loc>
     <lastmod>2021-01-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://gatekeeper.page/de/"
+                href="/de/blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gatekeeper.page/en/"
+                href="/en/blog/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/</loc>
+    <loc>/en/blog/2021-gatekeeper-and-password-policies/</loc>
+    <lastmod>2021-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <lastmod>2021-01-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/blog/2020-user-provisioning-in-2020/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</loc>
+    <loc>/en/blog/2020-introducing-the-gatekeeper-documentation/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</loc>
+    <loc>/en/blog/2020-gatekeeper-in-a-snap/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</loc>
+    <loc>/en/blog/2020-why-is-there-a-need-for-gatekeeper/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/community/</loc>
+    <loc>/en/community/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/categories/development/</loc>
+    <loc>/en/blog/categories/development/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/features/</loc>
+    <loc>/en/features/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/newsletter-subscribed/</loc>
+    <loc>/en/newsletter-subscribed/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/community/contribute/</loc>
+    <loc>/en/community/contribute/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/install/</loc>
+    <loc>/en/install/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/policy/</loc>
+    <loc>/en/policy/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/policy/privacy/</loc>
+    <loc>/en/policy/privacy/</loc>
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/en/blog/categories/vision/</loc>
+    <loc>/en/blog/categories/vision/</loc>
   </url>
   
 </urlset>

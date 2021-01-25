@@ -4,16 +4,16 @@
   xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Gatekeeper</title>
-    <link>https://gatekeeper.page/en/blog/</link>
+    <link>/en/blog/</link>
     <description>Recent content in Blog on Gatekeeper</description>
     
-    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gatekeeper.page/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gatekeeper and password policies</title>
-      <link>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</link>
+      <link>/en/blog/2021-gatekeeper-and-password-policies/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       <author>Lukas Reschke</author>
-      <guid>https://gatekeeper.page/en/blog/2021-gatekeeper-and-password-policies/</guid>
+      <guid>/en/blog/2021-gatekeeper-and-password-policies/</guid>
       <description><![CDATA[ Most people probably have seen such an error message before when trying to change their password somewhere. And the usual reaction ends up just adding some special characters such as exclamation marks at the end of the password.]]></description>
       <content:encoded><![CDATA[ <blockquote>
 <p>&quot;Your password needs to contain a non-alphanumeric character and two upper-case characters.&quot;</p>
@@ -42,10 +42,10 @@
     
     <item>
       <title>User provisioning in 2020</title>
-      <link>https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/</link>
+      <link>/en/blog/2020-user-provisioning-in-2020/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       <author>Lukas Reschke</author>
-      <guid>https://gatekeeper.page/en/blog/2020-user-provisioning-in-2020/</guid>
+      <guid>/en/blog/2020-user-provisioning-in-2020/</guid>
       <description><![CDATA[ The lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them.]]></description>
       <content:encoded><![CDATA[ <p>User Provisioning seems to be one of these neglected topics. If you are a big enterprise, you probably care. But as a small and medium-sized enterprise or a regular home user? Why bother!</p>
 <p>However, the lack of User Provisioning can cause Security and Privacy Risks, and you may not even be aware of them. Read on to understand the risks and how Gatekeeper can help mitigate them.</p>
@@ -66,10 +66,10 @@
     
     <item>
       <title>Introducing the Gatekeeper Documentation</title>
-      <link>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
+      <link>/en/blog/2020-introducing-the-gatekeeper-documentation/</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       <author>Lukas Reschke</author>
-      <guid>https://gatekeeper.page/en/blog/2020-introducing-the-gatekeeper-documentation/</guid>
+      <guid>/en/blog/2020-introducing-the-gatekeeper-documentation/</guid>
       <description><![CDATA[ We just published our first version of the Gatekeeper Documentation for administrators, users, and developers. Check it out at docs.gatekeeper.page.]]></description>
       <content:encoded><![CDATA[ <p>We just published our first version of the Gatekeeper Documentation for <a href="https://docs.gatekeeper.page/admin/">administrators</a>, <a href="https://docs.gatekeeper.page/user/">users</a>, and <a href="https://docs.gatekeeper.page/developer/">developers</a>. Check it out at <a href="https://docs.gatekeeper.page/">docs.gatekeeper.page</a>.</p>
 <p><img src="./documentation-screenshot.png" alt="Screenshot of docs.gatekeeper.page"></p>
@@ -99,10 +99,10 @@
     
     <item>
       <title>Gatekeeper in a Snap</title>
-      <link>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</link>
+      <link>/en/blog/2020-gatekeeper-in-a-snap/</link>
       <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
       <author>Lukas Reschke</author>
-      <guid>https://gatekeeper.page/en/blog/2020-gatekeeper-in-a-snap/</guid>
+      <guid>/en/blog/2020-gatekeeper-in-a-snap/</guid>
       <description><![CDATA[ As described in our earlier post: &ldquo;SaaS ate the world.&rdquo;. You don&rsquo;t need to bother with long installation processes, backups, let alone deploy updates timely. How can we get to a state in which on-premise software can compete with this?]]></description>
       <content:encoded><![CDATA[ <p>As described in our earlier post: &quot;<a href="https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/">SaaS ate the world.</a>&quot;. And one of the reasons for that is the fact that it is easy.</p>
 <p>You don't need to bother with long installation processes, backups, let alone deploy updates timely. In the cloud, someone else is doing all this for you.</p>
@@ -131,10 +131,10 @@
     
     <item>
       <title>Why is there a need for Gatekeeper?</title>
-      <link>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</link>
+      <link>/en/blog/2020-why-is-there-a-need-for-gatekeeper/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       <author>Lukas Reschke</author>
-      <guid>https://gatekeeper.page/en/blog/2020-why-is-there-a-need-for-gatekeeper/</guid>
+      <guid>/en/blog/2020-why-is-there-a-need-for-gatekeeper/</guid>
       <description><![CDATA[ I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source Identity Access Management solution, done in a way that anyone can run it.]]></description>
       <content:encoded><![CDATA[ <p>I wrote down some of the reasons for the creation of the Gatekeeper project. Gatekeeper aims to be an open-source <a href="https://en.wikipedia.org/wiki/Identity_management">Identity Access Management solution</a>, done in a way that anyone can run it.</p>
 <h2 id="self-hosting-requires-it-knowledge">Self-hosting requires IT knowledge.</h2>

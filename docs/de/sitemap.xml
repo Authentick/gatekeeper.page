@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gatekeeper.page/de/blog/categories/</loc>
+    <loc>/de/blog/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gatekeeper.page/en/blog/categories/"
+                href="/en/blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://gatekeeper.page/de/blog/categories/"
+                href="/de/blog/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://gatekeeper.page/de/</loc>
+    <loc>/de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://gatekeeper.page/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://gatekeeper.page/de/"
+                href="/de/"
                 />
   </url>
   
